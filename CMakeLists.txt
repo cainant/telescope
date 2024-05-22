@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.28)
 project(telescope)
+set(CMAKE_CXX_STANDARD 17)
 
 set(RAYLIB_VERSION 5.0)
 find_package(raylib ${RAYLIB_VERSION} QUIET) # QUIET or REQUIRED
@@ -19,7 +20,13 @@ if (NOT raylib_FOUND) # If there's none, fetch and build raylib
     endif()
 endif()
 
-set(CMAKE_CXX_STANDARD 17)
+add_subdirectory(external/lua)
+add_subdirectory(external/sol)
 
-add_executable(telescope src/main.cpp)
-target_link_libraries(telescope raylib)
+include_directories(src/ui)
+
+add_executable(telescope src/main.cpp
+        src/ui/app.cpp
+        src/particles.cpp
+        src/particles.h)
+target_link_libraries(telescope raylib lua::lib sol2)
