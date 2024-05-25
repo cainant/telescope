@@ -23,10 +23,11 @@ endif()
 add_subdirectory(external/lua)
 add_subdirectory(external/sol)
 
-include_directories(src/ui)
+include_directories(src/engine)
 
 add_executable(telescope src/main.cpp
-        src/ui/app.cpp
+        src/engine/app.cpp
         src/particles.cpp
-        src/particles.h)
+        src/particles.h
+        src/engine/system.h)
 target_link_libraries(telescope raylib lua::lib sol2)
