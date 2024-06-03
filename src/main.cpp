@@ -3,7 +3,7 @@
 
 int main()
 {
-    App app{};
+    telescope::App app;
     app.init();
 
     Particles particles{};
@@ -16,7 +16,6 @@ int main()
 
     while (app.is_running())
     {
-        std::cout << GetFrameTime() << std::endl;
         app.update();
         app.draw();
     }

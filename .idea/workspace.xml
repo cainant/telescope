@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="telescope" targetName="NightlyStart" />
+      <config projectName="telescope" targetName="NightlyMemoryCheck" />
+      <config projectName="telescope" targetName="ContinuousSubmit" />
+      <config projectName="telescope" targetName="uninstall" />
+      <config projectName="telescope" targetName="ContinuousTest" />
+      <config projectName="telescope" targetName="lua" />
+      <config projectName="telescope" targetName="ContinuousMemCheck" />
+      <config projectName="telescope" targetName="ExperimentalCoverage" />
+      <config projectName="telescope" targetName="update_mappings" />
+      <config projectName="telescope" targetName="ExperimentalTest" />
+      <config projectName="telescope" targetName="telescope" />
+      <config projectName="telescope" targetName="ExperimentalConfigure" />
+      <config projectName="telescope" targetName="ExperimentalBuild" />
+      <config projectName="telescope" targetName="ExperimentalUpdate" />
+      <config projectName="telescope" targetName="NightlyUpdate" />
+      <config projectName="telescope" targetName="NightlyConfigure" />
+      <config projectName="telescope" targetName="ContinuousBuild" />
+      <config projectName="telescope" targetName="NightlySubmit" />
+      <config projectName="telescope" targetName="raylib" />
+      <config projectName="telescope" targetName="ExperimentalStart" />
+      <config projectName="telescope" targetName="ContinuousConfigure" />
+      <config projectName="telescope" targetName="ExperimentalSubmit" />
+      <config projectName="telescope" targetName="NightlyCoverage" />
+      <config projectName="telescope" targetName="ContinuousStart" />
+      <config projectName="telescope" targetName="Continuous" />
+      <config projectName="telescope" targetName="ExperimentalMemCheck" />
+      <config projectName="telescope" targetName="Experimental" />
+      <config projectName="telescope" targetName="NightlyTest" />
+      <config projectName="telescope" targetName="ContinuousCoverage" />
+      <config projectName="telescope" targetName="Nightly" />
+      <config projectName="telescope" targetName="NightlyMemCheck" />
+      <config projectName="telescope" targetName="ContinuousUpdate" />
+      <config projectName="telescope" targetName="NightlyBuild" />
+      <config projectName="telescope" targetName="glfw" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f98822a1-1bb4-4371-9892-06bb2d56cff8" name="Changes" comment="gravity ball test">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/engine/app.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/engine/app.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2gwUcChg0dewbrgec5vsXTKuFwP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "C/C++ File.main.cpp.executor": "Run",
+    "CMake Application.telescope.executor": "Run",
+    "CMake Debug.telescope.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/sandbox/kernel",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "dynamic.analysis.tools.sanitizers",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="CMake Application.telescope">
+    <configuration name="Unnamed" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory">
+      <method v="2" />
+    </configuration>
+    <configuration name="telescope" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="telescope" TARGET_NAME="telescope" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="telescope" RUN_TARGET_NAME="telescope">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.telescope" />
+      <item itemvalue="CMake Debug.Unnamed" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f98822a1-1bb4-4371-9892-06bb2d56cff8" name="Changes" comment="" />
+      <created>1716173806218</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716173806218</updated>
+      <workItem from="1716173807938" duration="2953000" />
+      <workItem from="1716176808203" duration="2446000" />
+      <workItem from="1716245751989" duration="281000" />
+      <workItem from="1716250179169" duration="4224000" />
+      <workItem from="1716327665905" duration="4030000" />
+      <workItem from="1716584599869" duration="4369000" />
+      <workItem from="1716591523133" duration="8299000" />
+      <workItem from="1716607444549" duration="709000" />
+      <workItem from="1716608218240" duration="289000" />
+      <workItem from="1716608531161" duration="6121000" />
+      <workItem from="1716910527991" duration="7000" />
+      <workItem from="1716927687403" duration="65000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1716174270132</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716174270132</updated>
+    </task>
+    <task id="LOCAL-00002" summary="gravity ball test">
+      <option name="closed" value="true" />
+      <created>1716607325564</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716607325564</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="gravity ball test" />
+    <option name="LAST_COMMIT_MESSAGE" value="gravity ball test" />
+  </component>
+</project>
